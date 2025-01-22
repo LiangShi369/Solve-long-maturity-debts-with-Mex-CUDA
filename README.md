@@ -5,3 +5,6 @@ To efficiently use Mex CUDA, we should avoid the "stack memory" problem, which c
 The use of W(i,ib,iy) is to address the stack memory issue. 
 Tip: 
 Wrtie loops that explicitly visit all elements in the matrices. 
+
+File long_seq_loasMex.m is the main script. 
+Function solver_loasMex.m executes Mex parfor. 
